@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8daff4f5-f518-40ea-83f0-14fd701c3193">
+  <name>МУ_Курьер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьер</value>
+  </synonym>
+</mdclass:Role>

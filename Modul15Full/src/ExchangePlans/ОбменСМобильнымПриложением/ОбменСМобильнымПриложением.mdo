@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49c5395b-9b15-4310-9269-37faf99f0fed" thisNode="416b4816-3dd3-4688-807e-7efe50e62df2">
+  <producedTypes>
+    <objectType typeId="17353ad5-1f6a-42b5-b5f0-597e5cb05233" valueTypeId="0365e0ac-33a7-4531-938a-bd1b9ad7da73"/>
+    <refType typeId="6eb6c707-89fd-43de-a9a9-c12d4b3a45a8" valueTypeId="6f1aa242-488a-4144-8f9f-346deb668df8"/>
+    <selectionType typeId="148fc18f-bf2c-4e16-be93-9087e7715edb" valueTypeId="1b67948e-01ba-470f-aaef-5b374a5286c3"/>
+    <listType typeId="a7518859-bfa3-40b8-9fee-87808ddcfdba" valueTypeId="6436bb04-4bad-4b7a-a1fd-4d8df6ef740f"/>
+    <managerType typeId="b386dd54-0e6a-4d40-a796-5898f305c3ef" valueTypeId="3949d139-79a5-4ca1-ab17-d4dfde8ccefd"/>
+  </producedTypes>
+  <name>ОбменСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с мобильным приложением</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСМобильнымПриложением.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>36</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>
